@@ -6,7 +6,7 @@
 import scrapy
 
 
-class AccuweatherItem(scrapy.Item):
+class WeatherItem(scrapy.Item):
     city = scrapy.Field()
     temp = scrapy.Field()
     air_quality = scrapy.Field()
